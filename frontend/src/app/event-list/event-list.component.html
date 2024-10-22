@@ -1,0 +1,9 @@
+<h2>Liste des événements</h2>
+<ul>
+  <li *ngFor="let event of events">
+    <h3>{{ event.titre }}</h3>
+    <p>Date: {{ event.date }}</p>
+    <p>Lieu: {{ event.lieu }}</p>
+    <p>Description: {{ event.description }}</p>
+  </li>
+</ul>

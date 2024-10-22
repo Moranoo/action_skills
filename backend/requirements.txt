@@ -1,0 +1,6 @@
+Flask
+pymongo
+sendgrid
+flask-cors
+python-dotenv
+pymongo[srv]
